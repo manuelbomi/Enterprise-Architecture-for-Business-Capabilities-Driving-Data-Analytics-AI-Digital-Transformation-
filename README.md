@@ -79,3 +79,56 @@
 - Alignment of enterprise platforms to real business outcomes
 
 - Reduced architectural entropy and duplication
+
+---
+
+## Capability-Driven Enterprise Architecture (Conceptual View)
+
+
+```python
+[Enterprise Strategy]
+        |
+        v (influences)
+[Strategic Objectives / OKRs]
+        |
+        v (realized by)
+[Business Capabilities]
+        |
+        v (realized by)
+[Value Streams & Domains]
+        |
+        v (realized by)
+[Target State Architectures]
+        |
+        v (realized by)
+[Data / AI / Digital Platform Capabilities]
+        |
+        v (served by)
+[Application & Technology Services]
+        |
+        v (used by)
+[Products, Solutions & Delivery Teams]
+
+```
+
+```python
+flowchart TB
+    Strategy["Enterprise Strategy & OKRs"]
+    Capabilities["Business Capability Model"]
+    Domains["Domain & Value Streams"]
+    Architecture["Target State Architectures"]
+    Platforms["Data / AI / Digital Platforms"]
+    Execution["Products, Solutions & Delivery"]
+
+    Strategy --> Capabilities
+    Capabilities --> Domains
+    Domains --> Architecture
+    Architecture --> Platforms
+    Platforms --> Execution
+```
+
+Mapping This to TOGAF ADM
+
+Capabilities bridge strategy and execution across all ADM phases.
+
+
