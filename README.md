@@ -131,4 +131,68 @@ Mapping This to TOGAF ADM
 
 Capabilities bridge strategy and execution across all ADM phases.
 
+| From Archimate flowchart to Business Concept | TOGAF ADM Phase |
+|----------------------------------------------|-----------------|
+| Strategy & OKRs | Preliminary / Phase A |
+| Capability Model | Phase B (Business Architecture) |
+| Domains & Value Streams | Phase B |
+| Target Architectures | Phases B, C, D |
+| Platforms (Data / AI) | Phase C & D |
+| Products & Delivery | Phases E–G |
+
+## TOGAF ADM Phase Mapping
+
+| Archimate/Business Concept | TOGAF ADM Phase | Description |
+|----------------------------|-----------------|-------------|
+| **Strategy & OKRs** | **Preliminary / Phase A** | Architecture vision, business principles, and strategic objectives |
+| **Capability Model** | **Phase B (Business Architecture)** | Business capabilities, organizational structure, and processes |
+| **Domains & Value Streams** | **Phase B** | Value streams, business functions, and domain decomposition |
+| **Target Architectures** | **Phases B, C, D** | Business, data, application, and technology architecture definitions |
+| **Platforms (Data / AI)** | **Phase C & D** | Data architecture, AI platforms, and technology infrastructure |
+| **Products & Delivery** | **Phases E–G** | Implementation planning, migration, and governance |
+
+
+# TOGAF ADM Framework Mapping
+
+## Enterprise Architecture Development Flow
+
+| Business Concept | TOGAF Phase | Key Activities | Outputs |
+|------------------|-------------|----------------|---------|
+| **Strategy & OKRs** | **Preliminary / Phase A** | • Define architecture vision<br>• Establish business principles<br>• Identify stakeholders | Architecture Vision, Business Principles |
+| **Capability Model** | **Phase B** (Business Architecture) | • Map business capabilities<br>• Define organizational structure<br>• Model business processes | Business Capability Map, Organization Chart |
+| **Domains & Value Streams** | **Phase B** | • Identify value streams<br>• Decompose business domains<br>• Define business services | Value Stream Maps, Domain Models |
+| **Target Architectures** | **Phases B, C, D** | • Design target states<br>• Define architecture building blocks<br>• Create architecture roadmap | Target Architecture, Building Blocks |
+| **Platforms (Data / AI)** | **Phases C & D** | • Design data platforms<br>• Define AI/ML infrastructure<br>• Technology selection | Data Architecture, Technology Architecture |
+| **Products & Delivery** | **Phases E–G** | • Implementation planning<br>• Migration strategy<br>• Architecture governance | Implementation Plan, Migration Roadmap |
+
+## ADM Phase Overview
+- **A:** Architecture Vision
+- **B:** Business Architecture
+- **C:** Information Systems Architecture
+- **D:** Technology Architecture
+- **E:** Opportunities & Solutions
+- **F:** Migration Planning
+- **G:** Implementation Governance
+
+- ## Enterprise Architecture: Archimate → TOGAF Mapping
+
+| 🏢 Business Layer (Archimate) | 🔄 TOGAF ADM Phase | 🎯 Purpose |
+|-------------------------------|--------------------|------------|
+| **Strategy Elements**<br>• Goals<br>• Objectives<br>• Principles | **Phase A**<br>Architecture Vision | Establish strategic direction and business context |
+| **Business Layer**<br>• Business Actors<br>• Business Processes<br>• Business Services | **Phase B**<br>Business Architecture | Define business capabilities and value streams |
+| **Application Layer**<br>• Application Services<br>• Application Components | **Phase C**<br>Information Systems Architecture | Design application and data architectures |
+| **Technology Layer**<br>• Infrastructure<br>• Platforms<br>• Devices | **Phase D**<br>Technology Architecture | Define technology infrastructure and standards |
+| **Implementation & Migration**<br>• Work Packages<br>• Deliverables<br>• Plateaus | **Phases E–G**<br>Opportunities → Governance | Plan and govern implementation |
+
+## Architecture Development Flow
+
+From Archimate flowchart to Business Concept | TOGAF ADM Phase
+----------------------------------------------|-----------------
+Strategy & OKRs                              | Preliminary / Phase A
+Capability Model                             | Phase B (Business Architecture)
+Domains & Value Streams                      | Phase B
+Target Architectures                         | Phases B, C, D
+Platforms (Data / AI)                        | Phase C & D
+Products & Delivery                          | Phases E–G
+
 
