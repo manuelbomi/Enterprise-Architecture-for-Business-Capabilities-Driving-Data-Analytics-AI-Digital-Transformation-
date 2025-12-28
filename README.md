@@ -133,16 +133,7 @@ flowchart TB
 
 #### Capabilities bridge strategy and execution across all ADM phases.
 
-| From Archimate flowchart to Business Concept | TOGAF ADM Phase |
-|----------------------------------------------|-----------------|
-| Strategy & OKRs | Preliminary / Phase A |
-| Capability Model | Phase B (Business Architecture) |
-| Domains & Value Streams | Phase B |
-| Target Architectures | Phases B, C, D |
-| Platforms (Data / AI) | Phase C & D |
-| Products & Delivery | Phases E–G |
-
-## TOGAF ADM Phase Mapping
+### <ins>TOGAF ADM Framework Mapping</ins>
 
 | Archimate/Business Concept | TOGAF ADM Phase | Description |
 |----------------------------|-----------------|-------------|
@@ -154,7 +145,7 @@ flowchart TB
 | **Products & Delivery** | **Phases E–G** | Implementation planning, migration, and governance |
 
 
-# TOGAF ADM Framework Mapping
+### <ins>TOGAF ADM Framework Mapping</ins>
 
 ## Enterprise Architecture Development Flow
 
