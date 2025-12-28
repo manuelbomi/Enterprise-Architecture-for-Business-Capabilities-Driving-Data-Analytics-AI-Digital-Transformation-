@@ -127,9 +127,11 @@ flowchart TB
     Platforms --> Execution
 ```
 
-Mapping This to TOGAF ADM
+---
 
-Capabilities bridge strategy and execution across all ADM phases.
+## Mapping Capability-Driven Enterprise Architecture to TOGAF ADM
+
+#### Capabilities bridge strategy and execution across all ADM phases.
 
 | From Archimate flowchart to Business Concept | TOGAF ADM Phase |
 |----------------------------------------------|-----------------|
