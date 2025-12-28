@@ -55,3 +55,27 @@
 - Ideal anchors for architectural decisions
 
 ##### Capabilities answer *“What must the enterprise be good at?”—not “How do we do it today?”*
+
+---
+
+## Business Capability Models as the Bridge Between Strategy & IT
+
+##### One of the hardest EA challenges is translating strategy into executable architecture.
+
+##### Business Capability Models (BCMs) solve this by acting as:
+
+- A common language between business and technology
+
+- A decision framework for investment, modernization, and divestment
+
+- A guiding star for data, AI, and platform architectures
+
+### Strategic Outcomes Enabled by BCMs
+
+- Clear prioritization of AI and data initiatives
+
+- Transparent trade-offs between speed, cost, risk, and value
+
+- Alignment of enterprise platforms to real business outcomes
+
+- Reduced architectural entropy and duplication
