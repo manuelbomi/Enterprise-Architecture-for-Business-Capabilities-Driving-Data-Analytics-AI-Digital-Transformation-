@@ -131,6 +131,26 @@ flowchart TB
 
 ## Mapping Capability-Driven Enterprise Architecture to TOGAF ADM
 
+### ADM Phase Overview
+- **A:** Architecture Vision
+- **B:** Business Architecture
+- **C:** Information Systems Architecture
+- **D:** Technology Architecture
+- **E:** Opportunities & Solutions
+- **F:** Migration Planning
+- **G:** Implementation Governance
+
+From Archimate flowchart to Business Concept | TOGAF ADM Phase
+----------------------------------------------|-----------------
+Strategy & OKRs                              | Preliminary / Phase A
+Capability Model                             | Phase B (Business Architecture)
+Domains & Value Streams                      | Phase B
+Target Architectures                         | Phases B, C, D
+Platforms (Data / AI)                        | Phase C & D
+Products & Delivery                          | Phases E–G
+
+
+
 #### Capabilities bridge strategy and execution across all ADM phases.
 
 ### <ins>TOGAF ADM Framework Mapping</ins>
@@ -144,10 +164,9 @@ flowchart TB
 | **Platforms (Data / AI)** | **Phase C & D** | Data architecture, AI platforms, and technology infrastructure |
 | **Products & Delivery** | **Phases E–G** | Implementation planning, migration, and governance |
 
+---
 
-### <ins>TOGAF ADM Framework Mapping</ins>
-
-## Enterprise Architecture Development Flow
+### <ins>Enterprise Architecture Development Flow</ins>
 
 | Business Concept | TOGAF Phase | Key Activities | Outputs |
 |------------------|-------------|----------------|---------|
@@ -158,18 +177,10 @@ flowchart TB
 | **Platforms (Data / AI)** | **Phases C & D** | • Design data platforms<br>• Define AI/ML infrastructure<br>• Technology selection | Data Architecture, Technology Architecture |
 | **Products & Delivery** | **Phases E–G** | • Implementation planning<br>• Migration strategy<br>• Architecture governance | Implementation Plan, Migration Roadmap |
 
-## ADM Phase Overview
-- **A:** Architecture Vision
-- **B:** Business Architecture
-- **C:** Information Systems Architecture
-- **D:** Technology Architecture
-- **E:** Opportunities & Solutions
-- **F:** Migration Planning
-- **G:** Implementation Governance
 
-- ## Enterprise Architecture: Archimate → TOGAF Mapping
+### <ins>Enterprise Architecture: Archimate → TOGAF Mapping</ins>
 
-| 🏢 Business Layer (Archimate) | 🔄 TOGAF ADM Phase | 🎯 Purpose |
+|  Business Layer (Archimate) |  TOGAF ADM Phase |  Purpose |
 |-------------------------------|--------------------|------------|
 | **Strategy Elements**<br>• Goals<br>• Objectives<br>• Principles | **Phase A**<br>Architecture Vision | Establish strategic direction and business context |
 | **Business Layer**<br>• Business Actors<br>• Business Processes<br>• Business Services | **Phase B**<br>Business Architecture | Define business capabilities and value streams |
@@ -177,15 +188,5 @@ flowchart TB
 | **Technology Layer**<br>• Infrastructure<br>• Platforms<br>• Devices | **Phase D**<br>Technology Architecture | Define technology infrastructure and standards |
 | **Implementation & Migration**<br>• Work Packages<br>• Deliverables<br>• Plateaus | **Phases E–G**<br>Opportunities → Governance | Plan and govern implementation |
 
-## Architecture Development Flow
-
-From Archimate flowchart to Business Concept | TOGAF ADM Phase
-----------------------------------------------|-----------------
-Strategy & OKRs                              | Preliminary / Phase A
-Capability Model                             | Phase B (Business Architecture)
-Domains & Value Streams                      | Phase B
-Target Architectures                         | Phases B, C, D
-Platforms (Data / AI)                        | Phase C & D
-Products & Delivery                          | Phases E–G
-
+---
 
