@@ -346,13 +346,13 @@ Highlight AI-ready vs AI-constrained domains
 
 ## Measurable Business Benefits
 
-| Capability-Driven Outcome | Enterprise Benefit | Key Metrics | Business Impact |
-|---------------------------|-------------------|-------------|-----------------|
-| **Reduced Duplication** | Lower cost, faster delivery | • 40% reduction in redundant systems<br>• 60% faster project delivery<br>• 30% lower TCO | Direct operational efficiency gains |
-| **Clear AI Governance** | Trustworthy, compliant AI | • 100% audit compliance<br>• 90% reduction in AI bias incidents<br>• 95% model transparency | Regulatory compliance & ethical AI |
-| **Faster Decision-Making** | Reduced time-to-value | • 75% faster architecture decisions<br>• 50% reduction in approval cycles<br>• 3x faster POC-to-production | Accelerated innovation velocity |
-| **Scalable Platforms** | Sustainable innovation | • 5x scalability with same resources<br>• 80% platform reuse<br>• Zero vendor lock-in | Long-term growth foundation |
-| **Executive Alignment** | Predictable outcomes | • 100% project-business goal alignment<br>• 90% stakeholder satisfaction<br>• 95% on-time, on-budget delivery | Strategic execution certainty |
+| Capability-Driven Outcome | Enterprise Benefit | Key Metrics | Impact Level | Business Impact |
+|---------------------------|-------------------|-------------|-------------|-----------------|
+| **Reduced Duplication** | Lower cost, faster delivery | • 40% reduction in redundant systems<br>• 60% faster project delivery<br>• 30% lower TCO | **Operational** | Direct operational efficiency gains |
+| **Clear AI Governance** | Trustworthy, compliant AI | • 100% audit compliance<br>• 90% reduction in AI bias incidents<br>• 95% model transparency | **Compliance** | Regulatory compliance & ethical AI |
+| **Faster Decision-Making** | Reduced time-to-value | • 75% faster architecture decisions<br>• 50% reduction in approval cycles<br>• 3x faster POC-to-production |**Strategic** | Accelerated innovation velocity |
+| **Scalable Platforms** | Sustainable innovation | • 5x scalability with same resources<br>• 80% platform reuse<br>• Zero vendor lock-in | **Growth** | Long-term growth foundation |
+| **Executive Alignment** | Predictable outcomes | • 100% project-business goal alignment<br>• 90% stakeholder satisfaction<br>• 95% on-time, on-budget delivery | **Governance** | Strategic execution certainty |
 
 ## How Capability-Driven EA Enables Transformation
 1. **Common Language:** Business and IT speak the same capability language
