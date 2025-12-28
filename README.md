@@ -278,11 +278,11 @@ Highlight AI-ready vs AI-constrained domains
 
 - Map capabilities to:
 
-  - -  Applications
-
-        - Data products
+- [x]  Applications
+      
+- [x]  Data products
         
-        - AI/ML platforms
+- [x]     AI/ML platforms
 
-        - Infrastructure & security controls
+- [x]  Infrastructure & security controls
 
