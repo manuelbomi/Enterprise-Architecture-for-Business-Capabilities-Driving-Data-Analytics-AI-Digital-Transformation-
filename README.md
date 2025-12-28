@@ -226,3 +226,23 @@ Security & Compliance Automation
 
 ---
 
+### 🔄 Capability-Driven MLOps Architecture
+
+```python
+flowchart LR
+    Data["Data Platforms"]
+    Features["Feature Store"]
+    Training["Model Training"]
+    Registry["Model Registry"]
+    Serving["Model Serving"]
+    Monitoring["Monitoring & Drift Detection"]
+
+    Data --> Features
+    Features --> Training
+    Training --> Registry
+    Registry --> Serving
+    Serving --> Monitoring
+
+```
+* Each box maps directly to business capabilities, not just tools.
+
