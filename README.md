@@ -278,7 +278,7 @@ Highlight AI-ready vs AI-constrained domains
 
 - Map capabilities to:
 
-        - Applications
+  - -  Applications
 
         - Data products
         
