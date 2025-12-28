@@ -332,19 +332,7 @@ Highlight AI-ready vs AI-constrained domains
 
 ## Outcomes of Capability-Driven EA for AI & Digital Transformation
 
-
-
-| Outcome | Enterprise Benefit | Impact Level |
-|---------|-------------------|--------------|
-| **Reduced duplication** | Lower cost, faster delivery |  **Operational** |
-| **Clear AI governance** | Trustworthy, compliant AI |  **Compliance** |
-| **Faster decision-making** | Reduced time-to-value |  **Strategic** |
-| **Scalable platforms** | Sustainable innovation |  **Growth** |
-| **Executive alignment** | Predictable outcomes |  **Governance** |
-
-# Capability-Driven EA: AI & Digital Transformation Outcomes
-
-## Measurable Business Benefits
+### Measurable Business Benefits
 
 | Capability-Driven Outcome | Enterprise Benefit | Key Metrics | Impact Level | Business Impact |
 |---------------------------|-------------------|-------------|-------------|-----------------|
@@ -354,7 +342,7 @@ Highlight AI-ready vs AI-constrained domains
 | **Scalable Platforms** | Sustainable innovation | • 5x scalability with same resources<br>• 80% platform reuse<br>• Zero vendor lock-in | **Growth** | Long-term growth foundation |
 | **Executive Alignment** | Predictable outcomes | • 100% project-business goal alignment<br>• 90% stakeholder satisfaction<br>• 95% on-time, on-budget delivery | **Governance** | Strategic execution certainty |
 
-## How Capability-Driven EA Enables Transformation
+### How Capability-Driven EA Enables Transformation
 1. **Common Language:** Business and IT speak the same capability language
 2. **Strategic Alignment:** All initiatives trace back to business capabilities
 3. **Investment Focus:** Resources allocated to capability gaps
