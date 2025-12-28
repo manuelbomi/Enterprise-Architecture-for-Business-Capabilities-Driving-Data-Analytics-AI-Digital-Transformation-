@@ -246,3 +246,43 @@ flowchart LR
 ```
 * Each box maps directly to business capabilities, not just tools.
 
+---
+
+## How to Build a Business Capability Model (Practitioner View)
+
+#### <ins>Step 1: Assess Strategic Needs</ins>
+
+Engage executives, business leaders, architects
+
+Analyze market, competition, and regulatory context
+
+Identify differentiating capabilities
+
+#### <ins>Step 2: Define Required Capabilities</ins>
+
+Rank capabilities by strategic importance
+
+Organize into a hierarchical capability map
+
+Avoid org charts or system bias
+
+#### <ins>Step 3: Assess Current Capabilities</ins>
+
+Perform gap and maturity analysis
+
+Identify capability debt and risks
+
+Highlight AI-ready vs AI-constrained domains
+
+#### <ins> Step 4: Link Capabilities to Architecture</ins>
+
+- Map capabilities to:
+
+        - Applications
+
+        - Data products
+        
+        - AI/ML platforms
+
+        - Infrastructure & security controls
+
