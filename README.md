@@ -285,4 +285,18 @@ Highlight AI-ready vs AI-constrained domains
   -  [x]     AI/ML platforms
 
   - [x]  Infrastructure & security controls
+ 
+---
+
+## Example: Capability Maturity vs Business Impact
+
+### Inforgraphs such as such shown below helps executives prioritize investments objectively.
+
+> [!NOTE]
+> For interested readers, the codes for the graph below exist in the repository*
+>
+
+<img width="640" height="480" alt="Image" src="https://github.com/user-attachments/assets/a38936e9-0f09-40e1-b3c2-d72fef1f0646" />
+
+---
 
