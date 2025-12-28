@@ -190,3 +190,39 @@ Products & Delivery                          | Phases E–G
 
 ---
 
+## Business Capabilities in Data, AI & ML Context
+
+#### Example Capability Domains
+
+#### <ins>Data & Analytics</ins>
+
+Data Ingestion & Integration
+
+Data Governance & Quality
+
+Analytical Reporting & BI
+
+Real-Time Analytics
+
+#### <ins> AI & Machine Learning</ins>
+
+Model Development & Training
+
+Feature Engineering
+
+Model Deployment & Serving
+
+Model Monitoring & Governance
+
+#### <ins> Digital & Platform Engineering</ins>
+
+API & Integration Management
+
+Cloud Platform Enablement
+
+GPU & Accelerated Compute
+
+Security & Compliance Automation
+
+---
+
