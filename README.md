@@ -332,23 +332,15 @@ Highlight AI-ready vs AI-constrained domains
 
 ## Outcomes of Capability-Driven EA for AI & Digital Transformation
 
-| Outcome | Enterprise Benefit |
-|---------|-------------------|
-| Reduced duplication | Lower cost, faster delivery |
-| Clear AI governance | Trustworthy, compliant AI |
-| Faster decision-making | Reduced time-to-value |
-| Scalable platforms | Sustainable innovation |
-| Executive alignment | Predictable outcomes |
 
-## Outcomes of Capability-Driven EA for AI & Digital Transformation
 
 | Outcome | Enterprise Benefit | Impact Level |
 |---------|-------------------|--------------|
-| **Reduced duplication** | Lower cost, faster delivery | 🏭 **Operational** |
-| **Clear AI governance** | Trustworthy, compliant AI | 🛡️ **Compliance** |
-| **Faster decision-making** | Reduced time-to-value | ⚡ **Strategic** |
-| **Scalable platforms** | Sustainable innovation | 📈 **Growth** |
-| **Executive alignment** | Predictable outcomes | 🎯 **Governance** |
+| **Reduced duplication** | Lower cost, faster delivery |  **Operational** |
+| **Clear AI governance** | Trustworthy, compliant AI |  **Compliance** |
+| **Faster decision-making** | Reduced time-to-value |  **Strategic** |
+| **Scalable platforms** | Sustainable innovation |  **Growth** |
+| **Executive alignment** | Predictable outcomes |  **Governance** |
 
 # Capability-Driven EA: AI & Digital Transformation Outcomes
 
