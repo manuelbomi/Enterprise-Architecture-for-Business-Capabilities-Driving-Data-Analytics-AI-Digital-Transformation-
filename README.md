@@ -30,3 +30,28 @@
 - MLOps and platform operating models
 
 - Cloud, hybrid, and on-prem deployment realities
+
+---
+
+## Why Business Capability Modeling Is Foundational to EA
+##### What Is a Business Capability?
+
+##### A business capability describes what an organization is able to do, independent of:
+
+- Organizational structure
+
+- People
+
+- Processes
+
+- Technologies
+
+##### Capabilities are:
+
+- Stable over time
+
+- Strategy-aligned
+
+- Ideal anchors for architectural decisions
+
+##### Capabilities answer *“What must the enterprise be good at?”—not “How do we do it today?”*
