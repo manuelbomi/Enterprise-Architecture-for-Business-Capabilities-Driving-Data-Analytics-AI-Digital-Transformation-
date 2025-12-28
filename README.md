@@ -300,3 +300,31 @@ Highlight AI-ready vs AI-constrained domains
 
 ---
 
+## People as First-Class Architectural Elements
+
+##### Modern EA treats **people**, **ownership**, and **accountability** as architectural assets.
+
+##### Connecting people to capabilities enables:
+
+- Identification of domain experts
+
+- Detection of single points of failure
+
+- Improved governance and decision velocity
+
+---
+
+## From Static Models to Living Architecture
+
+#### Effective EA is not documentation—it is decision enablement.
+
+##### Best practices:
+
+- Treat capability models as living artifacts
+
+- Continuously update maturity and health signals
+
+- Integrate with portfolio, funding, and delivery systems
+
+- Broadcast insights across the organization
+
