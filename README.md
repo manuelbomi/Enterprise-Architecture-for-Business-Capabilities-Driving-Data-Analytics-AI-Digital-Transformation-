@@ -85,7 +85,7 @@
 ## Capability-Driven Enterprise Architecture (Conceptual View)
 
 
-```mermaid
+```python
 flowchart TB
 [Enterprise Strategy]
         |
