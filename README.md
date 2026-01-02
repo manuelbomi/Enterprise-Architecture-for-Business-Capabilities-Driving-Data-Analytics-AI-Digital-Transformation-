@@ -85,7 +85,7 @@
 ## Capability-Driven Enterprise Architecture (Conceptual View)
 
 
-```python
+```mermaid
 [Enterprise Strategy]
         |
         v (influences)
@@ -228,7 +228,7 @@ Security & Compliance Automation
 
 ### 🔄 Capability-Driven MLOps Architecture
 
-```python
+```mermaid
 flowchart LR
     Data["Data Platforms"]
     Features["Feature Store"]
