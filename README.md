@@ -320,17 +320,17 @@ flowchart LR
     style MD fill:#e0f2f1
 ```
 
-### Business Capability Mapping
+### Business Capability Mapping for MLOps Components
 
 | MLOps Component | Business Capability | Business Outcome | Key Metrics |
 |-----------------|---------------------|------------------|-------------|
-| **📊 Data Platforms** | Unified Customer Intelligence | Single source of truth for customer behavior | • Data freshness<br>• Data quality score<br>• Coverage of customer touchpoints |
-| **🔧 Feature Store** | Consistent Business Metrics | Standardized KPIs across all models | • Feature reuse rate<br>• Metric consistency<br>• Business logic alignment |
-| **🤖 Model Training** | Predictive Business Insights | Accurate forecasts and predictions | • Model accuracy vs business targets<br>• Training time to business need<br>• Experiment success rate |
-| **📋 Model Registry** | Governed AI Deployment | Compliant, auditable AI systems | • Compliance audit pass rate<br>• Model approval cycle time<br>• Version control accuracy |
-| **🚀 Model Serving** | Real-time Decision Making | Immediate business impact | • Inference latency vs SLA<br>• System availability<br>• Business throughput impact |
-| **🔍 Monitoring & Drift** | Continuous Improvement | Sustained business value | • Business KPI degradation detection<br>• ROI measurement accuracy<br>• Mean time to detect issues |
-```
+| **Data Platforms** | Unified Customer Intelligence | Single source of truth for customer behavior | • Data freshness<br>• Data quality score<br>• Coverage of customer touchpoints |
+| **Feature Store** | Consistent Business Metrics | Standardized KPIs across all models | • Feature reuse rate<br>• Metric consistency<br>• Business logic alignment |
+| **Model Training** | Predictive Business Insights | Accurate forecasts and predictions | • Model accuracy vs business targets<br>• Training time to business need<br>• Experiment success rate |
+| **Model Registry** | Governed AI Deployment | Compliant, auditable AI systems | • Compliance audit pass rate<br>• Model approval cycle time<br>• Version control accuracy |
+| **Model Serving** | Real-time Decision Making | Immediate business impact | • Inference latency vs SLA<br>• System availability<br>• Business throughput impact |
+| **Monitoring & Drift** | Continuous Improvement | Sustained business value | • Business KPI degradation detection<br>• ROI measurement accuracy<br>• Mean time to detect issues |
+
 
 
 **Each MLOps component directly enables specific business capabilities:**
