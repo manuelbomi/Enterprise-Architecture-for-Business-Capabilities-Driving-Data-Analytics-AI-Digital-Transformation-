@@ -86,6 +86,7 @@
 
 
 ```mermaid
+flowchart TB
 [Enterprise Strategy]
         |
         v (influences)
