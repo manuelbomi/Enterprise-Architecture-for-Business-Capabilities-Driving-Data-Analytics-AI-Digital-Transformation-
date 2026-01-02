@@ -255,23 +255,7 @@ Security & Compliance Automation
 
 ### 🔄 Capability-Driven MLOps Architecture
 
-```mermaid
-flowchart LR
-    Data["Data Platforms"]
-    Features["Feature Store"]
-    Training["Model Training"]
-    Registry["Model Registry"]
-    Serving["Model Serving"]
-    Monitoring["Monitoring & Drift Detection"]
-
-    Data --> Features
-    Features --> Training
-    Training --> Registry
-    Registry --> Serving
-    Serving --> Monitoring
-
-```
-* Each box maps directly to business capabilities, not just tools.
+##### MLOps Pipeline: From Technical Components to Business Capabilities. Each box maps directly to business capabilities, not just tools.
 
 
 ```mermaid
@@ -315,7 +299,7 @@ flowchart LR
     style Monitoring fill:#e0f2f1
 ```
 
-## MLOps Pipeline: From Technical Components to Business Capabilities
+
 
 ```mermaid
 flowchart LR
@@ -350,46 +334,7 @@ flowchart LR
 
 ## McDonald's MLOps Pipeline: Business Capability Driven
 
-```mermaid
-flowchart LR
-    subgraph "🍟 Customer Data Foundation"
-        Data["📊 Data Platforms<br/>• 70M+ customer profiles<br/>• Real-time order streams<br/>• Inventory tracking"]
-    end
-    
-    subgraph "🔧 Predictive Features"
-        Features["Feature Store<br/>• Customer lifetime value<br/>• Menu preference scores<br/>• Peak hour demand signals"]
-    end
-    
-    subgraph "🤖 Restaurant Optimization"
-        Training["Model Training<br/>• Kitchen load prediction<br/>• Dynamic pricing models<br/>• Personalized recommendations"]
-    end
-    
-    subgraph "📋 Franchise Governance"
-        Registry["Model Registry<br/>• 40,000+ restaurant compliance<br/>• Regional regulation checks<br/>• Franchisee approval workflow"]
-    end
-    
-    subgraph "🚀 Real-time Operations"
-        Serving["Model Serving<br/>• <100ms order predictions<br/>• Real-time kitchen optimization<br/>• Instant personalization"]
-    end
-    
-    subgraph "🔍 Performance Tracking"
-        Monitoring["Monitoring & Drift<br/>• Sales lift measurement<br/>• Food waste reduction tracking<br/>• Customer satisfaction monitoring"]
-    end
-    
-    Data -->|"Raw customer &<br/>operational data<br/>→ business features"| Features
-    Features -->|"Business-aligned<br/>features → predictive<br/>models for restaurants"| Training
-    Training -->|"Validated models →<br/>franchisee-approved<br/>deployment packages"| Registry
-    Registry -->|"Approved models →<br/>real-time restaurant<br/>decision support"| Serving
-    Serving -->|"Model performance →<br/>business outcome<br/>measurement"| Monitoring
-    Monitoring -.->|"Performance insights →<br/>data collection<br/>optimization"| Data
 
-    style Data fill:#ffcccc
-    style Features fill:#ffebcc
-    style Training fill:#ffffcc
-    style Registry fill:#ccffcc
-    style Serving fill:#ccebff
-    style Monitoring fill:#e6ccff
-```
 
 ```mermaid
 flowchart LR
@@ -418,7 +363,7 @@ flowchart LR
 - **Model Registry** → Governed, compliant AI deployment
 - **Model Serving** → Real-time business decision support
 - **Monitoring** → Continuous business value optimization
-```
+
 
 ---
 
