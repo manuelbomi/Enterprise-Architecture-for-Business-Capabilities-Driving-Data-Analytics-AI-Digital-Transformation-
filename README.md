@@ -273,6 +273,153 @@ flowchart LR
 ```
 * Each box maps directly to business capabilities, not just tools.
 
+
+```mermaid
+flowchart LR
+    subgraph "📊 Data Foundation"
+        Data["Data Platforms<br/>• Customer 360° view<br/>• Real-time streaming<br/>• Quality governance"]
+    end
+    
+    subgraph "🔧 Feature Engineering"
+        Features["Feature Store<br/>• Reusable ML features<br/>• Business metrics alignment<br/>• Consistent feature logic"]
+    end
+    
+    subgraph "🤖 Model Development"
+        Training["Model Training<br/>• Experiment tracking<br/>• Hyperparameter optimization<br/>• Business outcome alignment"]
+    end
+    
+    subgraph "📋 Model Governance"
+        Registry["Model Registry<br/>• Version control<br/>• Compliance tracking<br/>• Business approval workflow"]
+    end
+    
+    subgraph "🚀 Model Operations"
+        Serving["Model Serving<br/>• Low-latency inference<br/>• A/B testing framework<br/>• Business SLA management"]
+    end
+    
+    subgraph "🔍 Quality Assurance"
+        Monitoring["Monitoring & Drift Detection<br/>• Business KPI tracking<br/>• Performance degradation alerts<br/>• ROI measurement"]
+    end
+    
+    Data -->|"Business data<br/>transformed to<br/>ML-ready features"| Features
+    Features -->|"Features aligned with<br/>business objectives<br/>used for training"| Training
+    Training -->|"Validated models<br/>ready for business<br/>deployment"| Registry
+    Registry -->|"Approved models<br/>deployed to serve<br/>business needs"| Serving
+    Serving -->|"Models monitored<br/>against business<br/>performance metrics"| Monitoring
+    Monitoring -.->|"Feedback loop<br/>for continuous<br/>business improvement"| Data
+
+    style Data fill:#e1f5fe
+    style Features fill:#f3e5f5
+    style Training fill:#e8f5e8
+    style Registry fill:#fff3e0
+    style Serving fill:#fce4ec
+    style Monitoring fill:#e0f2f1
+```
+
+## MLOps Pipeline: From Technical Components to Business Capabilities
+
+```mermaid
+flowchart LR
+    DP["📊 Data Platforms"]
+    FS["🔧 Feature Store"]
+    MT["🤖 Model Training"]
+    MR["📋 Model Registry"]
+    MS["🚀 Model Serving"]
+    MD["🔍 Monitoring & Drift"]
+
+    DP --> FS --> MT --> MR --> MS --> MD
+    
+    style DP fill:#e1f5fe
+    style FS fill:#f3e5f5
+    style MT fill:#e8f5e8
+    style MR fill:#fff3e0
+    style MS fill:#fce4ec
+    style MD fill:#e0f2f1
+```
+
+### Business Capability Mapping
+
+| MLOps Component | Business Capability | Business Outcome | Key Metrics |
+|-----------------|---------------------|------------------|-------------|
+| **📊 Data Platforms** | Unified Customer Intelligence | Single source of truth for customer behavior | • Data freshness<br>• Data quality score<br>• Coverage of customer touchpoints |
+| **🔧 Feature Store** | Consistent Business Metrics | Standardized KPIs across all models | • Feature reuse rate<br>• Metric consistency<br>• Business logic alignment |
+| **🤖 Model Training** | Predictive Business Insights | Accurate forecasts and predictions | • Model accuracy vs business targets<br>• Training time to business need<br>• Experiment success rate |
+| **📋 Model Registry** | Governed AI Deployment | Compliant, auditable AI systems | • Compliance audit pass rate<br>• Model approval cycle time<br>• Version control accuracy |
+| **🚀 Model Serving** | Real-time Decision Making | Immediate business impact | • Inference latency vs SLA<br>• System availability<br>• Business throughput impact |
+| **🔍 Monitoring & Drift** | Continuous Improvement | Sustained business value | • Business KPI degradation detection<br>• ROI measurement accuracy<br>• Mean time to detect issues |
+```
+
+## McDonald's MLOps Pipeline: Business Capability Driven
+
+```mermaid
+flowchart LR
+    subgraph "🍟 Customer Data Foundation"
+        Data["📊 Data Platforms<br/>• 70M+ customer profiles<br/>• Real-time order streams<br/>• Inventory tracking"]
+    end
+    
+    subgraph "🔧 Predictive Features"
+        Features["Feature Store<br/>• Customer lifetime value<br/>• Menu preference scores<br/>• Peak hour demand signals"]
+    end
+    
+    subgraph "🤖 Restaurant Optimization"
+        Training["Model Training<br/>• Kitchen load prediction<br/>• Dynamic pricing models<br/>• Personalized recommendations"]
+    end
+    
+    subgraph "📋 Franchise Governance"
+        Registry["Model Registry<br/>• 40,000+ restaurant compliance<br/>• Regional regulation checks<br/>• Franchisee approval workflow"]
+    end
+    
+    subgraph "🚀 Real-time Operations"
+        Serving["Model Serving<br/>• <100ms order predictions<br/>• Real-time kitchen optimization<br/>• Instant personalization"]
+    end
+    
+    subgraph "🔍 Performance Tracking"
+        Monitoring["Monitoring & Drift<br/>• Sales lift measurement<br/>• Food waste reduction tracking<br/>• Customer satisfaction monitoring"]
+    end
+    
+    Data -->|"Raw customer &<br/>operational data<br/>→ business features"| Features
+    Features -->|"Business-aligned<br/>features → predictive<br/>models for restaurants"| Training
+    Training -->|"Validated models →<br/>franchisee-approved<br/>deployment packages"| Registry
+    Registry -->|"Approved models →<br/>real-time restaurant<br/>decision support"| Serving
+    Serving -->|"Model performance →<br/>business outcome<br/>measurement"| Monitoring
+    Monitoring -.->|"Performance insights →<br/>data collection<br/>optimization"| Data
+
+    style Data fill:#ffcccc
+    style Features fill:#ffebcc
+    style Training fill:#ffffcc
+    style Registry fill:#ccffcc
+    style Serving fill:#ccebff
+    style Monitoring fill:#e6ccff
+```
+
+```mermaid
+flowchart LR
+    A["📊 Data → Business Insights"]
+    B["🔧 Features → Business Metrics"]
+    C["🤖 Training → Predictive Capability"]
+    D["📋 Registry → Governance & Compliance"]
+    E["🚀 Serving → Real-time Decisions"]
+    F["🔍 Monitoring → Business Value Tracking"]
+    
+    A --> B --> C --> D --> E --> F
+    F -.-> A
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style D fill:#fff3e0
+    style E fill:#fce4ec
+    style F fill:#e0f2f1
+```
+
+**Each MLOps component directly enables specific business capabilities:**
+- **Data Platforms** → Customer intelligence and operational visibility
+- **Feature Store** → Consistent business metrics and KPIs
+- **Model Training** → Predictive business insights
+- **Model Registry** → Governed, compliant AI deployment
+- **Model Serving** → Real-time business decision support
+- **Monitoring** → Continuous business value optimization
+```
+
 ---
 
 ## How to Build a Business Capability Model (Practitioner View)
