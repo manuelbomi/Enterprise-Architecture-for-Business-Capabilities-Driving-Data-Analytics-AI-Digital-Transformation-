@@ -332,29 +332,6 @@ flowchart LR
 | **🔍 Monitoring & Drift** | Continuous Improvement | Sustained business value | • Business KPI degradation detection<br>• ROI measurement accuracy<br>• Mean time to detect issues |
 ```
 
-## McDonald's MLOps Pipeline: Business Capability Driven
-
-
-
-```mermaid
-flowchart LR
-    A["📊 Data → Business Insights"]
-    B["🔧 Features → Business Metrics"]
-    C["🤖 Training → Predictive Capability"]
-    D["📋 Registry → Governance & Compliance"]
-    E["🚀 Serving → Real-time Decisions"]
-    F["🔍 Monitoring → Business Value Tracking"]
-    
-    A --> B --> C --> D --> E --> F
-    F -.-> A
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#fce4ec
-    style F fill:#e0f2f1
-```
 
 **Each MLOps component directly enables specific business capabilities:**
 - **Data Platforms** → Customer intelligence and operational visibility
