@@ -111,7 +111,7 @@
 
 ```
 
-```python
+```mermaid
 flowchart TB
     Strategy["Enterprise Strategy & OKRs"]
     Capabilities["Business Capability Model"]
