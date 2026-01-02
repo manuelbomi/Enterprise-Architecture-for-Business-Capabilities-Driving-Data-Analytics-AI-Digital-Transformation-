@@ -85,30 +85,145 @@
 ## Capability-Driven Enterprise Architecture (Conceptual View)
 
 
-```python
+```mermaid
+flowchart TD
+    A[🏢 Enterprise Strategy]
+    B[🎯 Strategic Objectives / OKRs]
+    C[💼 Business Capabilities]
+    D[📈 Value Streams & Domains]
+    E[🏗️ Target State Architectures]
+    F[🤖 Data / AI / Digital Platform Capabilities]
+    G[🛠️ Application & Technology Services]
+    H[🚀 Products, Solutions & Delivery Teams]
+    
+    A -- influences --> B
+    B -- realized by --> C
+    C -- realized by --> D
+    D -- realized by --> E
+    E -- realized by --> F
+    F -- served by --> G
+    G -- used by --> H
+    
+    style A fill:#e1f5fe,stroke:#333,stroke-width:2px
+    style B fill:#f3e5f5,stroke:#333,stroke-width:2px
+    style C fill:#e8f5e8,stroke:#333,stroke-width:2px
+    style D fill:#fff3e0,stroke:#333,stroke-width:2px
+    style E fill:#fce4ec,stroke:#333,stroke-width:2px
+    style F fill:#e0f2f1,stroke:#333,stroke-width:2px
+    style G fill:#fff8e1,stroke:#333,stroke-width:2px
+    style H fill:#f1f8e9,stroke:#333,stroke-width:2px
+```
+
+
+```mermaid
+flowchart TD
+    subgraph "🎯 Enterprise Vision"
+        A[🏢 Enterprise Strategy<br/>Corporate vision, mission,<br/>and long-term goals]
+    end
+    
+    subgraph "📊 Business Alignment"
+        B[🎯 Strategic Objectives / OKRs<br/>Measurable goals, KPIs,<br/>and business outcomes]
+    end
+    
+    subgraph "🔧 Business Foundation"
+        C[💼 Business Capabilities<br/>What the business does,<br/>core competencies]
+    end
+    
+    subgraph "💰 Value Creation"
+        D[📈 Value Streams & Domains<br/>How value flows through<br/>the organization]
+    end
+    
+    subgraph "🏗️ Design Blueprint"
+        E[🏗️ Target State Architectures<br/>Future-state designs for<br/>business, data, applications, technology]
+    end
+    
+    subgraph "🤖 Technology Enablement"
+        F[🤖 Data / AI / Digital Platform Capabilities<br/>ML models, data platforms,<br/>digital infrastructure]
+    end
+    
+    subgraph "🛠️ Implementation"
+        G[🛠️ Application & Technology Services<br/>APIs, microservices,<br/>technical components]
+    end
+    
+    subgraph "🚀 Delivery"
+        H[🚀 Products, Solutions & Delivery Teams<br/>Customer-facing products,<br/>implementation teams]
+    end
+    
+    A -- "influences<br/>sets direction for" --> B
+    B -- "realized by<br/>accomplished through" --> C
+    C -- "realized by<br/>operationalized through" --> D
+    D -- "realized by<br/>designed through" --> E
+    E -- "realized by<br/>enabled through" --> F
+    F -- "served by<br/>implemented as" --> G
+    G -- "used by<br/>consumed by" --> H
+    
+    style A fill:#dcedc8,stroke:#333,stroke-width:2px
+    style B fill:#fff9c4,stroke:#333,stroke-width:2px
+    style C fill:#bbdefb,stroke:#333,stroke-width:2px
+    style D fill:#ffcdd2,stroke:#333,stroke-width:2px
+    style E fill:#e1bee7,stroke:#333,stroke-width:2px
+    style F fill:#c8e6c9,stroke:#333,stroke-width:2px
+    style G fill:#ffecb3,stroke:#333,stroke-width:2px
+    style H fill:#b2dfdb,stroke:#333,stroke-width:2px
+```
+
+```mermaid
+flowchart LR
+    A[🏢 Enterprise<br/>Strategy]
+    B[🎯 Strategic<br/>Objectives]
+    C[💼 Business<br/>Capabilities]
+    D[📈 Value Streams<br/>& Domains]
+    E[🏗️ Target State<br/>Architectures]
+    F[🤖 Data / AI / Digital<br/>Platform Capabilities]
+    G[🛠️ Application &<br/>Technology Services]
+    H[🚀 Products &<br/>Delivery Teams]
+    
+    A -->|influences| B
+    B -->|realized by| C
+    C -->|realized by| D
+    D -->|realized by| E
+    E -->|realized by| F
+    F -->|served by| G
+    G -->|used by| H
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style D fill:#fff3e0
+    style E fill:#fce4ec
+    style F fill:#e0f2f1
+    style G fill:#fff8e1
+    style H fill:#f1f8e9
+```
+
+```mermaid
 flowchart TB
-[Enterprise Strategy]
-        |
-        v (influences)
-[Strategic Objectives / OKRs]
-        |
-        v (realized by)
-[Business Capabilities]
-        |
-        v (realized by)
-[Value Streams & Domains]
-        |
-        v (realized by)
-[Target State Architectures]
-        |
-        v (realized by)
-[Data / AI / Digital Platform Capabilities]
-        |
-        v (served by)
-[Application & Technology Services]
-        |
-        v (used by)
-[Products, Solutions & Delivery Teams]
+    A[🏢 Enterprise Strategy]
+    B[🎯 Strategic Objectives / OKRs]
+    C[💼 Business Capabilities]
+    D[📈 Value Streams & Domains]
+    E[🏗️ Target State Architectures]
+    F[🤖 Data / AI / Digital Platform Capabilities]
+    G[🛠️ Application & Technology Services]
+    H[🚀 Products, Solutions & Delivery Teams]
+    
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+    
+    style A fill:#e1f5fe
+    style B fill:#f3e5f5
+    style C fill:#e8f5e8
+    style D fill:#fff3e0
+    style E fill:#fce4ec
+    style F fill:#e0f2f1
+    style G fill:#fff8e1
+    style H fill:#f1f8e9
+```
 
 ```
 
