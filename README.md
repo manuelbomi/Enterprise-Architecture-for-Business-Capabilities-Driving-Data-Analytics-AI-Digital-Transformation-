@@ -167,63 +167,8 @@ flowchart TD
     style H fill:#b2dfdb,stroke:#333,stroke-width:2px
 ```
 
-```mermaid
-flowchart LR
-    A[🏢 Enterprise<br/>Strategy]
-    B[🎯 Strategic<br/>Objectives]
-    C[💼 Business<br/>Capabilities]
-    D[📈 Value Streams<br/>& Domains]
-    E[🏗️ Target State<br/>Architectures]
-    F[🤖 Data / AI / Digital<br/>Platform Capabilities]
-    G[🛠️ Application &<br/>Technology Services]
-    H[🚀 Products &<br/>Delivery Teams]
-    
-    A -->|influences| B
-    B -->|realized by| C
-    C -->|realized by| D
-    D -->|realized by| E
-    E -->|realized by| F
-    F -->|served by| G
-    G -->|used by| H
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#fce4ec
-    style F fill:#e0f2f1
-    style G fill:#fff8e1
-    style H fill:#f1f8e9
-```
 
-```mermaid
-flowchart TB
-    A[🏢 Enterprise Strategy]
-    B[🎯 Strategic Objectives / OKRs]
-    C[💼 Business Capabilities]
-    D[📈 Value Streams & Domains]
-    E[🏗️ Target State Architectures]
-    F[🤖 Data / AI / Digital Platform Capabilities]
-    G[🛠️ Application & Technology Services]
-    H[🚀 Products, Solutions & Delivery Teams]
-    
-    A --> B
-    B --> C
-    C --> D
-    D --> E
-    E --> F
-    F --> G
-    G --> H
-    
-    style A fill:#e1f5fe
-    style B fill:#f3e5f5
-    style C fill:#e8f5e8
-    style D fill:#fff3e0
-    style E fill:#fce4ec
-    style F fill:#e0f2f1
-    style G fill:#fff8e1
-    style H fill:#f1f8e9
-```
+
 
 
 
